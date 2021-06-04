@@ -3,12 +3,12 @@
 
 .container
 {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 800px;
-    height: 500px;
+    height: 400px;
     border-radius: 10px;
     margin-top: 100px;
 }
@@ -40,4 +40,53 @@ button{
     font-size: 24px;
     color: white;
     margin-top: 50px;
+}
+
+/*================================*/
+/*              FARBE             */
+
+
+.container2
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 500px;
+    border-radius: 10px;
+    
+}
+
+.box
+{
+width: 150px;
+height: 150px;
+border: 1px solid grey;
+border-radius: 10px;
+
+}
+
+.taste
+{
+margin-left: 70px;
+
+}
+
+.taste button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 120px;
+    height: 60px;
+    margin: 15px 0;
+    font-size:30px ;
+}
+
+.taste button:last-child
+{
+    background-color: black;
+
 }

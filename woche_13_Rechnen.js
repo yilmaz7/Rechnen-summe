@@ -9,3 +9,36 @@ var span = document.getElementById("ergebnis");
 
     span.innerHTML = summe;
 }
+
+
+var box = document.getElementById("farbe");
+
+function blauFarbe()
+{
+    box.style.backgroundColor = "blue";
+
+}
+
+
+function rotFarbe()
+{
+    box.style.backgroundColor = "red";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
